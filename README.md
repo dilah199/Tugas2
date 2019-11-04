@@ -9,7 +9,7 @@ print('X')
 print('Y')
 print('Z')
  Contoh Gambar :
-![Output_end]https://github.com/dilah199/Tugas2/blob/master/picture/Lab1Picture.PNG
+![Output end](picture_Lab1Picture]https://github.com/dilah199/Tugas2/blob/master/picture/Lab1Picture.PNG)
 
 ### Penggunaan Separator
 Separator "**sep**" dalam python digunakan sebagai pembatas antara output yang dihasilkan.
@@ -23,4 +23,4 @@ print(w, x, y, z, sep=':')
 print(w, x, y, z, sep='- - - - -')
 
  Contoh Gambar
-![Output_sep]https://github.com/dilah199/Tugas2/blob/master/picture/lab1operator.PNG
+![Output sep](https://github.com/dilah199/Tugas2/blob/master/picture/lab1operator.PNG)
