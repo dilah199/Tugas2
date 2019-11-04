@@ -68,3 +68,60 @@ Contoh Output :
 
 ![Output String](https://github.com/dilah199/Tugas2/blob/master/picture/Lab1runStringformat1.PNG)
 
+Kita akan membuat outputnya menjadi seperti berikut :
+
+![Output String](https://github.com/dilah199/Tugas2/blob/master/picture/Lab1Stringformat2.PNG)
+
+Dengan Kode :
+
+ print('{0:>3} {1:>16}'.format(0, 10 ** 0))
+ print('{0:>3} {1:>16}'.format(1, 10 ** 1))
+ print('{0:>3} {1:>16}'.format(2, 10 ** 2))
+ print('{0:>3} {1:>16}'.format(3, 10 ** 3))
+ print('{0:>3} {1:>16}'.format(4, 10 ** 4))
+ print('{0:>3} {1:>16}'.format(5, 10 ** 5))
+ print('{0:>3} {1:>16}'.format(6, 10 ** 6))
+ print('{0:>3} {1:>16}'.format(7, 10 ** 7))
+ print('{0:>3} {1:>16}'.format(8, 10 ** 8))
+ print('{0:>3} {1:>16}'.format(9, 10 ** 9))
+ print('{0:>3} {1:>16}'.format(10, 10 ** 10))
+
+Dalam contoh di atas terdapat { } yang berfungsi sebagai placeholder atau penempat arguments. Argument secara default urutannya adalah berurutan.
+
+Lab2
+
+Lab2 membahas tentang bagaimana memasukan input, menghitung dan mengubah tipe data serta membuat format print yang akan dicetak ke output.
+
+Contoh kode :
+
+a = input("masukan nilai a:")
+b = input("masukan nilau b:")
+print("variabel a =", a)
+print("variabel b =", b)
+print('hasil penggabungan {1} & {0} = %d'.format(a, b))
+
+a = int(a)
+b = int(b)
+
+print('hasil penjumlahan {1} & {0} = %d'.format(a, b)%(a + b))
+print('hasil pembagian {} & {} = %d'.format(a, b) % (a / b))
+
+Output yang didapat :
+
+![Output capture2](https://github.com/dilah199/Tugas2/blob/master/picture/capture2.PNG)
+
+Input dimasukan dengan cara menjalankan program terlebih dahulu, kemudian data dimasukan oleh user (Lihat angka 10 & 6 hijau) dengan diikuti keterangan berupa string "masukan nilai a:". Lalu input di cetak menggunakan fungsi "print()", disertai keterangan "hasil penggabungan" seperti berikut. Kode :
+
+print('hasil penggabungan {1} & {0} = %d'.format(a, b))
+
+Input dicetak kembali disertai dengan format baru menggunakan fungsi "format". Output dari print ini berbentuk tipe data string. Jadi bila kita menjumlahkan input "a" dan "b" dengan operator "+" maka output dari penjumlahan tersebut akan menghasilkan "106" (10 dan 6). Sedangkan "%d" yang seharusnya hanya dilakukan proses dan tidak di cetak ke output, menjadi tercetak kedalam bentuk string atau text (lihat hasil output di atas). Tetapi jika kita menggunakan tipe data, misalnya "/" maka akan terjadi error. Ini disebabkan karena tipe data yang berbentuk string atau text tidak bisa di jumlahkan dengan operator tersebut. Maka dari itu kita perlu mengkonversikan atau mengubah tipe data tersebut menjadi tipe data bersifat bilangan atau angka, misalnya integer atau float.
+
+a = int(a)
+b = int(b)
+
+Perintah di atas akan mengkonversikan tipe data sebelumnya ke bentuk tipe data integer. Dengan ini kita bisa menjumlahkan input sebagai angka.
+
+print('hasil penjumlahan {1} & {0} = %d'.format(a, b)%(a + b))
+
+Perintah di atas digunakan untuk mencetak, menghitung dan memformat kembali output yang akan dihasilkan. "{1}" dan "{0}" adalah placeholder dan "%d" adalah perintah untuk mencetak output ke dalam bentuk desimal. Kita bisa mengubah "%d" menjadi, misalnya "%f", dan output yang akan di hasilkan akan dicetak dalam bentuk float.
+
