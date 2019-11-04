@@ -2,6 +2,7 @@
 # Lab1
 # Penggunaan end
 print('A', end="")
+
 print('B', end="")
 print('C', end="")
 print()
