@@ -65,3 +65,6 @@ print(10, 10 ** 10)
 
 
 Kita akan membuat outputnya menjadi seperti berikut :
+
+![Output String](https://github.com/dilah199/Tugas2/blob/master/picture/Lab1runStringformat1.PNG)
+
