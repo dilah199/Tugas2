@@ -1,4 +1,26 @@
 # Tugas2
 # Lab1
- # Penggunaan end
-Di dalam fungsi "print()" di dalam bahasa python terdapat parameter "end". Parameter "end" adalah parameter yang digunakan untuk memasukan string atau karakter apapun untuk mengakhiri sebuah statement. Secara default jika kita melakukan print dalam python, output akan dicetak dalam baris baru. Tapi jika kita memasukan fungsi "end" maka hasil output tidak akan langsung berada di garis baru. Contoh kode :
+# Penggunaan end
+print('A', end="")
+print('B', end="")
+print('C', end="")
+print()
+print('X')
+print('Y')
+print('Z')
+ Contoh Gambar :
+![Output_end]https://github.com/dilah199/Tugas2/blob/master/picture/Lab1Picture.PNG
+
+### Penggunaan Separator
+Separator "**sep**" dalam python digunakan sebagai pembatas antara output yang dihasilkan.
+ Contoh Code :
+
+# Penggunaan separator
+w, x, y, z = 10, 15, 20, 25
+print(w, x, y, z, sep=',')
+print(w, x, y, z, sep='')
+print(w, x, y, z, sep=':')
+print(w, x, y, z, sep='- - - - -')
+
+ Contoh Gambar
+![Output_sep]https://github.com/dilah199/Tugas2/blob/master/picture/lab1operator.PNG
