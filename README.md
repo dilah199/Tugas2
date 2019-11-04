@@ -48,5 +48,6 @@ print(8, 10 ** 8)
 print(9, 10 ** 9)
 print(10, 10 ** 10)
 
-  Contoh Gamabar :
+  Contoh Gambar :
   
+![Output String](https://github.com/dilah199/Tugas2/blob/master/picture/Lab1StringFormat.PNG)
