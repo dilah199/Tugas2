@@ -1,2 +1,1 @@
-# Tugas2
-hsqighsuiqhu# Tugas2
+# latihan2
