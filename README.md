@@ -64,7 +64,7 @@ print(10, 10 ** 10)
 ![Output String](https://github.com/dilah199/Tugas2/blob/master/picture/Lab1StringFormat.PNG)
 
 
-Kita akan membuat outputnya menjadi seperti berikut :
+Contoh Output :
 
 ![Output String](https://github.com/dilah199/Tugas2/blob/master/picture/Lab1runStringformat1.PNG)
 
